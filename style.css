@@ -96,7 +96,7 @@ h2.Why_His_Enemies_Called_Him_Demon{
 body {
     background-image: url("images/Halo\ Reach.webp"); 
     background-repeat: no-repeat;  
-    background-attachment: scroll;  
+    background-attachment: fixed;  
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
