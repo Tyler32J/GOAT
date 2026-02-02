@@ -94,7 +94,7 @@ h2.Why_His_Enemies_Called_Him_Demon{
     }
     
 body {
-    background-image: url("images/Halo\ Reach.webp"); 
+    background-image: url("images/halo_reach.jpg"); 
     background-repeat: no-repeat;  
     background-attachment: fixed;  
     background-size: cover;
@@ -107,7 +107,6 @@ body {
     transition: background-color 0.5s, color 0.5s;
 
 }
-
 
 h1, h2, p {
     background-color: rgba(0, 0, 0, 0.85); 
@@ -130,7 +129,7 @@ img.Master_Chief_Halo_3,
 img.Master_Chief_Standing,
 img.Master_Chief_Action {
     width: 100%;
-    max-width: 800px;   /* max size constraint */
+    max-width: 800px;   
     height: auto;
     display: block;
     margin: 30px auto;
