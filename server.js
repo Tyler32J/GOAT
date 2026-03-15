@@ -12,7 +12,14 @@ const server = http.createServer((req, res) => {
       res.end('Not found');
       return;
     }
-    res.writeHead(200);
+    
+    const ext = path.extname(filePath);
+    let contentType = 'text/html';
+    if (ext === '.css') contentType = 'text/css';
+    if (ext === '.jpg' || ext === '.jpeg') contentType = 'image/jpeg';
+    if (ext === '.png') contentType = 'image/png';
+    
+    res.writeHead(200, { 'Content-Type': contentType });
     res.end(data);
   });
 });
